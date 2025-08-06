@@ -33,4 +33,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/my-web-app:latest
+        tags: ghcr.io/pislissniflis/my-web-app:latest # Ensure this is all lowercase
+
